@@ -2,7 +2,6 @@
   "name": "MozBD Updates",
   "description": "As a community Mozilla Bangladesh, or as the local contributors like to call it, MozBD is very active with frequent events and sprints. Follow Mozilla Bangladesh's Facebook page updates with this app and get involved with us!",
   "launch_path": "/index.html",
-  "appcache_path": "/manifest.appcache",
   "icons": {
 	"32": "/images/app_icon_32.png",
     "60": "/images/app_icon_60.png",
