@@ -304,6 +304,46 @@ section[role="region"].skin-dark header h2,
   border: none;
 }
 
+/* ----------------------------------
+ * HEADERS: orange
+ * ---------------------------------- */
+section[role="region"].skin-orange > header:first-child,
+.skin-dark > section[role="region"] > header:first-child {
+  background-color: #ff6633;
+}
+
+section[role="region"].skin-orange > header:first-child > a:not([aria-disabled="true"]):active:after,
+section[role="region"].skin-orange > header:first-child > button:not(:disabled):active:after,
+section[role="region"].skin-orange > header:first-child > a:not([aria-disabled="true"]):hover:after,
+section[role="region"].skin-orange > header:first-child > button:not(:disabled):hover:after,
+section[role="region"].skin-orange > header:first-child menu[type="toolbar"] a:not([aria-disabled="true"]):hover,
+section[role="region"].skin-orange > header:first-child menu[type="toolbar"] button:not(:disabled):hover,
+section[role="region"].skin-orange > header:first-child menu[type="toolbar"] a:not([aria-disabled="true"]):active,
+section[role="region"].skin-orange > header:first-child menu[type="toolbar"] button:not(:disabled):active {
+  background-color: rgba(0,0,0,0.4);
+}
+
+section[role="region"].skin-orange > header:first-child menu[type="toolbar"] a,
+section[role="region"].skin-orange > header:first-child menu[type="toolbar"] button {
+  color: #00aac5;
+}
+
+section[role="region"] > header:first-child h1 {
+  color: #fff;
+}
+
+section[role="region"] > header:first-child h1 em {
+  color: #ff6633;
+  background: #fff;
+}
+
+section[role="region"].skin-orange header h2,
+.skin-orange > section[role="region"] header h2 {
+  background-color: #2c353b;
+  color: #fff;
+  border: none;
+}
+
 
 /* ----------------------------------
  * HEADERS: organic
